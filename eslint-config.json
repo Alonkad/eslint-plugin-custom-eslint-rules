@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "no-module-state": 2
+  }
+}

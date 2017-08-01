@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/alonk/.nvm/versions/node/v6.9.2/bin/node',
+1 verbose cli   '/Users/alonk/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'lint' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
+5 info lifecycle eslint-plugin-custom-eslint-rules@0.0.0~prelint: eslint-plugin-custom-eslint-rules@0.0.0
+6 silly lifecycle eslint-plugin-custom-eslint-rules@0.0.0~prelint: no script for prelint, continuing
+7 info lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: eslint-plugin-custom-eslint-rules@0.0.0
+8 verbose lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: unsafe-perm in lifecycle true
+9 verbose lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: PATH: /Users/alonk/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/alonk/projects/eslint-plugin-custom-eslint-rules/node_modules/.bin:/Users/alonk/.nvm/versions/node/v6.9.2/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: CWD: /Users/alonk/projects/eslint-plugin-custom-eslint-rules
+11 silly lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: Args: [ '-c',
+11 silly lifecycle   'node $NODE_DEBUG_OPTION node_modules/.bin/eslint --config eslint-config.json --rulesdir lib/rules/ index.js' ]
+12 silly lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: Returned: code: 1  signal: null
+13 info lifecycle eslint-plugin-custom-eslint-rules@0.0.0~lint: Failed to exec lint script
+14 verbose stack Error: eslint-plugin-custom-eslint-rules@0.0.0 lint: `node $NODE_DEBUG_OPTION node_modules/.bin/eslint --config eslint-config.json --rulesdir lib/rules/ index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/alonk/.nvm/versions/node/v6.9.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/alonk/.nvm/versions/node/v6.9.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid eslint-plugin-custom-eslint-rules@0.0.0
+16 verbose cwd /Users/alonk/projects/eslint-plugin-custom-eslint-rules
+17 error Darwin 16.4.0
+18 error argv "/Users/alonk/.nvm/versions/node/v6.9.2/bin/node" "/Users/alonk/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/npm-cli.js" "run" "lint"
+19 error node v6.9.2
+20 error npm  v3.10.9
+21 error code ELIFECYCLE
+22 error eslint-plugin-custom-eslint-rules@0.0.0 lint: `node $NODE_DEBUG_OPTION node_modules/.bin/eslint --config eslint-config.json --rulesdir lib/rules/ index.js`
+22 error Exit status 1
+23 error Failed at the eslint-plugin-custom-eslint-rules@0.0.0 lint script 'node $NODE_DEBUG_OPTION node_modules/.bin/eslint --config eslint-config.json --rulesdir lib/rules/ index.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the eslint-plugin-custom-eslint-rules package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node $NODE_DEBUG_OPTION node_modules/.bin/eslint --config eslint-config.json --rulesdir lib/rules/ index.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs eslint-plugin-custom-eslint-rules
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls eslint-plugin-custom-eslint-rules
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
